@@ -16,6 +16,7 @@
 		5DC49D9C1E78E51D002D1436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC49D9A1E78E51D002D1436 /* LaunchScreen.storyboard */; };
 		5DC49DA71E78E51D002D1436 /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC49DA61E78E51D002D1436 /* TimerTests.m */; };
 		5DC49DB21E78E51D002D1436 /* TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC49DB11E78E51D002D1436 /* TimerUITests.m */; };
+		5DC49DC11E78E5E1002D1436 /* StellarTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC49DC01E78E5E1002D1436 /* StellarTimeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5DC49DAD1E78E51D002D1436 /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC49DB11E78E51D002D1436 /* TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerUITests.m; sourceTree = "<group>"; };
 		5DC49DB31E78E51D002D1436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC49DBF1E78E5E1002D1436 /* StellarTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StellarTimeView.h; sourceTree = "<group>"; };
+		5DC49DC01E78E5E1002D1436 /* StellarTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StellarTimeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5DC49D8D1E78E51D002D1436 /* AppDelegate.m */,
 				5DC49D8F1E78E51D002D1436 /* ViewController.h */,
 				5DC49D901E78E51D002D1436 /* ViewController.m */,
+				5DC49DBF1E78E5E1002D1436 /* StellarTimeView.h */,
+				5DC49DC01E78E5E1002D1436 /* StellarTimeView.m */,
 				5DC49D921E78E51D002D1436 /* Main.storyboard */,
 				5DC49D981E78E51D002D1436 /* Assets.xcassets */,
 				5DC49D9A1E78E51D002D1436 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC49D911E78E51D002D1436 /* ViewController.m in Sources */,
+				5DC49DC11E78E5E1002D1436 /* StellarTimeView.m in Sources */,
 				5DC49D8E1E78E51D002D1436 /* AppDelegate.m in Sources */,
 				5DC49D8B1E78E51D002D1436 /* main.m in Sources */,
 				5DC49D971E78E51D002D1436 /* Timer.xcdatamodeld in Sources */,

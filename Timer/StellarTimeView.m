@@ -117,7 +117,7 @@ static CGFloat  progressLineWidth = 3;  // 外圆进度的线宽
         CGFloat width = 160;
         CGFloat height = 60;
         _progressView.frame = CGRectMake((self.frame.size.width - width) / 2, _centerY - height / 2, width, height);
-        _progressView.font = [UIFont systemFontOfSize:bigTextSize];
+        _progressView.font = [UIFont systemFontOfSize:20];
         _progressView.textAlignment = NSTextAlignmentCenter;
         _progressView.textColor = [UIColor orangeColor];
     }
